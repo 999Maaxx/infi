@@ -8,12 +8,14 @@ public class ControlStructurs3 {
         Random random = new Random();
         int randomNumber = random.nextInt(100);
 
+        System.out.println("Die Zufallszahl ist:"+randomNumber);
+
         if(randomNumber<20){
-            System.out.println("Mini");
+            System.out.println("Die ausgegebene Zahl ist Mini");
         }else if(randomNumber>20 && randomNumber<50){
-            System.out.println("Medium");
+            System.out.println("Die ausgegebene Zahl ist Medium");
         }else{
-            System.out.println("Large");
+            System.out.println("Die ausgegebene Zahl ist Large");
         }
 
         // Gib die Zufallszahl aus
