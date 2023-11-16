@@ -17,7 +17,7 @@ public class TicTacToe {
             int row = move[0];
             int col = move[1];
 
-            if (isValidMove(board, row, col)) {
+            if (isValidMove(board, row, col)) { 
                 board[row][col] = currentPlayer;
                 gameWon = isGameWon(board, currentPlayer, row, col);
 
